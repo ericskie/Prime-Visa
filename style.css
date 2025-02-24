@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: 'Anton' 'Overpass';
 }
 
 /* Body Background */
@@ -91,7 +91,7 @@ button {
 .sign-up-button {
     padding: 15px 40px;
     background-color: #ffcc00;
-    color: black;
+    color: #333333;
     font-weight: 550;
     box-shadow: 0 4px 6px rgba(206, 169, 6, 0.61);
 }
@@ -103,9 +103,38 @@ button {
 /* Hero Section */
 .hero {
     padding: 10px 100px;
-    
+}
+.left-side-hero {
+    padding: 60px;
 }
 .hero .hero-content {
-    padding: 50px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FEFCFB;
     background-color: #2766C0;
+    display: flex;
+}
+.hero-title {
+    color: #FF8835;
+    font-size: 68px;
+    font-weight: 600;
+}
+.hero-subtitle {
+    padding: 20px 0px;
+}
+.subtitle2 {
+    padding: 20px 0px;
+}
+.highlight{
+    color: #FED516;
+}
+.cta-button {
+    background-color: #FED516;
+    color: #333333;
+    padding: 15px 30px;
+    margin: 40px 0px 0px 0px;
+}
+.hero-image img{
+   width: 32vw;
 }
