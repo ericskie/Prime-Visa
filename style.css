@@ -16,7 +16,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 150px;
+    padding: 20px 100px;
     background-color: transparent;
 }
 
@@ -76,6 +76,7 @@ button {
 
 /* Login Button */
 .login-button {
+    padding: 0px 40px;
     background-color: transparent;
     color: #FF8835;
     font-weight: bold;
@@ -99,4 +100,12 @@ button {
     background-color: #e6b800;
     transform: scale(1.05);
 }
-
+/* Hero Section */
+.hero {
+    padding: 10px 100px;
+    
+}
+.hero .hero-content {
+    padding: 50px;
+    background-color: #2766C0;
+}
