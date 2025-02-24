@@ -102,10 +102,14 @@ button {
 }
 /* Hero Section */
 .hero {
-    padding: 10px 100px;
+    padding: 10px 10rem;
 }
 .left-side-hero {
     padding: 60px;
+    line-height: 1.6;
+}
+.hero-content {
+    padding: 0px;
 }
 .hero .hero-content {
     border-radius: 12px;
@@ -117,8 +121,8 @@ button {
 }
 .hero-title {
     color: #FF8835;
-    font-size: 68px;
-    font-weight: 600;
+    font-size: 64px;
+    font-weight: 550;
 }
 .hero-subtitle {
     padding: 20px 0px;
@@ -129,12 +133,32 @@ button {
 .highlight{
     color: #FED516;
 }
+.text1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.text2 {
+    font-size: 20px;
+    font-weight: 550;
+}
 .cta-button {
     background-color: #FED516;
     color: #333333;
     padding: 15px 30px;
     margin: 40px 0px 0px 0px;
 }
-.hero-image img{
-   width: 32vw;
+.hero-container {
+    overflow: hidden;    
+}
+
+.hero-image {
+    position: absolute;  
+    top: 190px;
+    right: 130px;
+}
+
+.hero-image img {
+    width: 32vw;
+    max-height: 100%;
+    object-fit: cover; 
 }
