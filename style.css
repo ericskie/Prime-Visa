@@ -1,4 +1,4 @@
-/* Reset Default Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@
     font-family: "Overpass", sans-serif;
 }
 
-/* Body Background */
+
 body {
     background-color: #f4f4f4;
 }
@@ -19,24 +19,21 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 100px;
+    padding: 20px 200px;
     background-color: transparent;
 }
 
-/* Logo */
 .nav-image img {
     width: 213px;
     height: 126px;
 }
 
-/* Navigation and Buttons Container */
 .nav-btn {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-/* Navigation Links */
 .section-btn {
     list-style: none;
     display: flex;
@@ -60,13 +57,11 @@ body {
     color: #ffcc00;
 }
 
-/* Buttons Container */
 .enter-btn {
     display: flex;
     gap: 10px;
 }
 
-/* Buttons */
 button {
     padding: 10px 20px;
     border: none;
@@ -76,7 +71,6 @@ button {
     transition: background 0.3s ease, transform 0.2s ease;
 }
 
-/* Login Button */
 .login-button {
     padding: 0px 40px;
     background-color: transparent;
@@ -89,7 +83,6 @@ button {
     transform: scale(1.05);
 }
 
-/* Sign Up Button */
 .sign-up-button {
     padding: 15px 40px;
     background-color: #ffcc00;
@@ -108,51 +101,57 @@ button {
 /* ========================= */
 
 .hero {
-    padding: 1rem 10rem;
+    padding: 1rem 11rem;
 }
 
 .hero-content {
+    position: relative;
     padding: 0;
-    border-radius: 12px;
+    border-radius: 25px;
     font-size: 20px;
     font-weight: 400;
     color: #FEFCFB;
-    background-color: #2766C0;
     display: flex;
+
+    background: 
+    url('images/abstract1.png') no-repeat -1% 4%,   
+    url('images/abstract4.png') no-repeat 58% 48%,  
+    url('images/abstract3.png') no-repeat 124% -450%,
+    url('images/airplane.png') no-repeat 60% 5%,
+    url('images/bag\ 1.png') no-repeat 32% 93%,
+    url('images/bag\ 2.png') no-repeat 43% 97%;
+background-blend-mode: color-burn, color-burn, normal, screen, screen, screen; 
+background-size: 46%, 50%, 600px, 320px, 85px, 150px;
+background-color: #2766C0;
 }
 
-/* Left Side Hero Content */
 .left-side-hero {
-    padding: 60px;
+    padding:  60px 100px;
     line-height: 1.6;
 }
 
-/* Hero Title */
 .hero-title {
     color: #FF8835;
-    font-size: 64px;
+    font-size: 68px;
     font-weight: 550;
-    letter-spacing: 0.5rem;
+    letter-spacing: 0.8rem;
     font-family: "Anton", sans-serif;
+    margin: 0 50px 0 0;
 }
 
-/* Hero Subtitle */
 .hero-subtitle {
     padding: 20px 0;
     font-weight: 550;
 }
 
-/* Paragraph Styling */
 .paragraph1 {
     padding: 20px 0;
 }
 
-/* Highlighted Text */
 .highlight {
     color: #FED516;
 }
 
-/* Text Styles */
 .text1 {
     font-size: 20px;
     font-weight: bold;
@@ -163,12 +162,11 @@ button {
     font-weight: 550;
 }
 
-/* CTA Button */
 .cta-button {
     background-color: #FED516;
     color: #333333;
     padding: 15px 30px;
-    margin-top: 40px;
+    margin: 40px 0 70px 0;
 }
 
 /* ========================= */
@@ -181,14 +179,13 @@ button {
     display: block;
 }
 
-/* Positioning the Hero Image */
 .hero-image {
     position: absolute;
-    top: -20px;
-    right: 10px;
+    top: -29px;
+    right: -30px;
 }
 
 .hero-image img {
-    width: 36vw;
-    clip-path: inset(0 0 117px 0);
+    width: 40.5vw;
+    clip-path: inset(0 45px 127.5px 0);
 }
