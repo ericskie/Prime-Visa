@@ -197,7 +197,7 @@ background-color: #2766C0;
 .aboutUs{
     padding: 50px 330px;
 }
-.aboutus-title {
+.aboutUsTitle {
     text-align: center;
     font-size: 50px;
     font-weight: 550;
@@ -228,4 +228,32 @@ background-color: #2766C0;
     font-weight: 550;
     padding: 20px 0;
     line-height: 40px;
+}
+
+/* ========================= */
+/*  WHY CHOOSE US  SECTION   */
+/* ========================= */
+.whyChooseUs {
+    padding: 50px 350px;
+}
+.whyChooseUsTitle {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 550;
+    color: #5DA4FF;
+    font-family: 'Anton';
+    margin: 90px 0 50px 0;
+}
+.whyChooseUsTitle .highlight {
+    color: #2766C0;
+    font-weight: 550;
+    font-family: 'Anton';
+}
+.whyChooseUsContainer {
+    background-color: #FF883580;
+    padding: 50px 80px;
+}
+.whyChooseUsContainer ul {
+    list-style-position: outside;
+    font-size: 25px;
 }
