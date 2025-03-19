@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Overpass", sans-serif;
+    scroll-behavior: smooth;
 }
 
 
@@ -100,7 +101,7 @@ button {
 /*        HERO SECTION       */
 /* ========================= */
 
-.hero {
+#hero {
     padding: 1rem 11rem;
 }
 
@@ -194,7 +195,7 @@ background-color: #2766C0;
 /*     ABOUT US SECTION      */
 /* ========================= */
 
-.aboutUs{
+#aboutUs{
     padding: 50px 330px;
 }
 .aboutUsTitle {
@@ -233,7 +234,8 @@ background-color: #2766C0;
 /* ========================= */
 /*  WHY CHOOSE US  SECTION   */
 /* ========================= */
-.whyChooseUs {
+
+#whyChooseUs {
     padding: 50px 350px;
 }
 .whyChooseUsTitle {
@@ -256,4 +258,85 @@ background-color: #2766C0;
 .whyChooseUsContainer ul {
     list-style-position: outside;
     font-size: 25px;
+}
+
+/* ========================= */
+/*      OUR COMMUNITY        */
+/* ========================= */
+
+#ourCommunity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh; 
+}
+.communityTitle {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 550;
+    color: #5DA4FF;
+    font-family: 'Anton';
+}
+.communityTitle .highlight {
+    color: #2766C0;
+    font-weight: 550;
+    font-family: 'Anton';
+}
+.communityBox {
+    position: relative;
+    width: 1000px; 
+    border-radius: 15px;
+    overflow: hidden;
+}
+.communityBox img {
+    width: 100%;
+    display: block;
+    border-radius: 15px;
+    clip-path: inset(155px 0 160px 0);
+}
+.overlay {
+    border-radius: 15px;
+    position: absolute;
+    top: 155px;
+    left: 0;
+    width: 100%;
+    height: 53%;
+    background: rgba(0, 123, 255, 0.5); 
+}
+
+/* ========================= */
+/*        CONTACT US         */
+/* ========================= */
+
+#contactUs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.contactUsTitle {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 550;
+    color: #5DA4FF;
+    font-family: 'Anton';
+}
+.contactUsTitle .highlight {
+    color: #2766C0;
+    font-weight: 550;
+    font-family: 'Anton';
+}
+.infoItem {
+    padding: 5rem;
+}
+.infoItem .items{
+    padding: 20px;
+    font-size: 25px;
+}
+.infoItem .items h4{
+    font-weight: 550;
+    font-family: 'anton';
 }
