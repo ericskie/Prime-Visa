@@ -121,9 +121,9 @@ button {
     url('images/airplane.png') no-repeat 60% 5%,
     url('images/bag\ 1.png') no-repeat 32% 93%,
     url('images/bag\ 2.png') no-repeat 43% 97%;
-background-blend-mode: color-burn, color-burn, normal, screen, screen, screen; 
-background-size: 46%, 50%, 600px, 320px, 85px, 150px;
-background-color: #2766C0;
+    background-blend-mode: color-burn, color-burn, normal, screen, screen, screen; 
+    background-size: 46%, 50%, 600px, 320px, 85px, 150px;
+    background-color: #2766C0;
 }
 
 .leftSideHero {
@@ -198,6 +198,7 @@ background-color: #2766C0;
 #aboutUs{
     padding: 50px 330px;
 }
+
 .aboutUsTitle {
     text-align: center;
     font-size: 50px;
@@ -206,17 +207,20 @@ background-color: #2766C0;
     font-family: 'Anton';
     margin: 90px 0 50px 0;
 }
+
 .aboutUsTitle .highlight{
     color: #2766C0;
     font-weight: 550;
     font-family: 'Anton';
 }
+
 .aboutUsBox {
     justify-items: center;
     padding: 80px;
     background-color: #FED516;
     
 }
+
 .thePrimeVisa {
     color: #2766C0;
     text-decoration: underline;
@@ -224,6 +228,7 @@ background-color: #2766C0;
     font-weight: bold;
     margin: 23px auto 0 0;
 }
+
 .aboutUsBox .paragraphs p{
     font-size: 25px;
     font-weight: 550;
@@ -238,6 +243,7 @@ background-color: #2766C0;
 #whyChooseUs {
     padding: 50px 350px;
 }
+
 .whyChooseUsTitle {
     text-align: center;
     font-size: 50px;
@@ -246,15 +252,18 @@ background-color: #2766C0;
     font-family: 'Anton';
     margin: 90px 0 50px 0;
 }
+
 .whyChooseUsTitle .highlight {
     color: #2766C0;
     font-weight: 550;
     font-family: 'Anton';
 }
+
 .whyChooseUsContainer {
     background-color: #FF883580;
     padding: 50px 80px;
 }
+
 .whyChooseUsContainer ul {
     list-style-position: outside;
     font-size: 25px;
@@ -272,6 +281,7 @@ background-color: #2766C0;
     text-align: center;
     height: 100vh; 
 }
+
 .communityTitle {
     text-align: center;
     font-size: 50px;
@@ -279,23 +289,27 @@ background-color: #2766C0;
     color: #5DA4FF;
     font-family: 'Anton';
 }
+
 .communityTitle .highlight {
     color: #2766C0;
     font-weight: 550;
     font-family: 'Anton';
 }
+
 .communityBox {
     position: relative;
     width: 1000px; 
     border-radius: 15px;
     overflow: hidden;
 }
+
 .communityBox img {
     width: 100%;
     display: block;
     border-radius: 15px;
     clip-path: inset(155px 0 160px 0);
 }
+
 .overlay {
     border-radius: 15px;
     position: absolute;
@@ -318,6 +332,7 @@ background-color: #2766C0;
     text-align: center;
     margin-bottom: 190px;
 }
+
 .contactUsTitle {
     text-align: center;
     font-size: 50px;
@@ -325,18 +340,22 @@ background-color: #2766C0;
     color: #5DA4FF;
     font-family: 'Anton';
 }
+
 .contactUsTitle .highlight {
     color: #2766C0;
     font-weight: 550;
     font-family: 'Anton';
 }
+
 .infoItem {
     padding: 5rem;
 }
+
 .infoItem .items{
     padding: 20px;
     font-size: 25px;
 }
+
 .infoItem .items h4{
     font-weight: 550;
     font-family: 'anton';
@@ -348,8 +367,9 @@ background-color: #2766C0;
 .footerSection {
     position: relative;
 }
+
 .header {
-    background: linear-gradient(to right, #ffa726, #ff7043);
+    background-color: #ffb310ca;
     color: white;
     text-align: center;
     padding: 100px 300px;
@@ -357,32 +377,61 @@ background-color: #2766C0;
     border-radius: 10px;
     position: absolute;
     top: -25%;  
-    left: 23%;
+    left: 20%;
     z-index: 10;
+
+    /* BACKGROUND IMAGE */
+    
+    background-image: url(images/calendar.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -1px -200px;
+    background-blend-mode: color-burn;
 }
+
+.header h2 {
+    font-family: 'anton';
+    color: #2766C0;
+    font-weight: 550;
+    font-size: 35px;
+}
+
 .inputContainer {
     margin-top: 20px;
+    position: relative; 
+    display: flex;
+    align-items: center;
+    width: 550px; 
 }
+
 .inputContainer input {
-    padding: 10px;
-    width: 250px;
-    border: none;
+    padding: 15px;
+    width: 150%;
+    border: 1px solid #ccc;
     border-radius: 5px;
+    padding-right: 200px; 
 }
+
 .inputContainer button {
-    padding: 10px 20px;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
     background-color: #ff5722;
     border: none;
     color: white;
+    padding: 8px 15px;
     border-radius: 5px;
     cursor: pointer;
 }
+
 footer {
     background-color: #1565c0;
     color: white;
     padding: 150px 0;
     position: relative;
 }
+
 .footerContainer {
     display: flex;
     justify-content: space-around;
@@ -391,22 +440,27 @@ footer {
     margin: 150px 0 0 0;
     line-height: 2;
 }
+
 .links h4, h3 {
     color: #FED516;
     font-weight: 550;
     margin-bottom: 10px;
     font-family: 'anton';
 }
+
 .brand .footerImage img{
     width: 7vw;
 }
+
 .links p, .brand p {
     margin: 5px 0;
 }
+
 .socialIcons span {
     font-size: 24px;
     margin: 0 5px;
 }
+
 .copyright, .terms {
     margin-top: 20px;
     font-size: 14px;
