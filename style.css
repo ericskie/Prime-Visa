@@ -316,6 +316,7 @@ background-color: #2766C0;
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-bottom: 190px;
 }
 .contactUsTitle {
     text-align: center;
@@ -339,4 +340,75 @@ background-color: #2766C0;
 .infoItem .items h4{
     font-weight: 550;
     font-family: 'anton';
+}
+
+/* ========================= */
+/*          FOOTER           */
+/* ========================= */
+.footerSection {
+    position: relative;
+}
+.header {
+    background: linear-gradient(to right, #ffa726, #ff7043);
+    color: white;
+    text-align: center;
+    padding: 100px 300px;
+    margin: auto;
+    border-radius: 10px;
+    position: absolute;
+    top: -25%;  
+    left: 23%;
+    z-index: 10;
+}
+.inputContainer {
+    margin-top: 20px;
+}
+.inputContainer input {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+}
+.inputContainer button {
+    padding: 10px 20px;
+    background-color: #ff5722;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer {
+    background-color: #1565c0;
+    color: white;
+    padding: 150px 0;
+    position: relative;
+}
+.footerContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0px 300px;
+    margin: 150px 0 0 0;
+    line-height: 2;
+}
+.links h4, h3 {
+    color: #FED516;
+    font-weight: 550;
+    margin-bottom: 10px;
+    font-family: 'anton';
+}
+.brand .footerImage img{
+    width: 7vw;
+}
+.links p, .brand p {
+    margin: 5px 0;
+}
+.socialIcons span {
+    font-size: 24px;
+    margin: 0 5px;
+}
+.copyright, .terms {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
 }
