@@ -170,6 +170,11 @@ button {
     margin: 40px 0 70px 0;
 }
 
+.ctaButton:hover {
+    background-color: #e6b800;
+    transform: scale(1.05);
+}
+
 /* ========================= */
 /*     HERO IMAGE SECTION    */
 /* ========================= */
@@ -425,6 +430,10 @@ button {
     cursor: pointer;
 }
 
+.inputContainer button:hover {
+    background-color: #d1380a;
+}
+
 footer {
     background-color: #1565c0;
     color: white;
@@ -437,7 +446,7 @@ footer {
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 0px 300px;
-    margin: 150px 0 0 0;
+    margin: 150px 0 0px 0;
     line-height: 2;
 }
 
@@ -456,13 +465,38 @@ footer {
     margin: 5px 0;
 }
 
-.socialIcons span {
+.links p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.socialIcons i {
     font-size: 24px;
-    margin: 0 5px;
+    margin: 20px 10px;
 }
 
-.copyright, .terms {
-    margin-top: 20px;
+.socialIcons i:hover{
+    cursor: pointer;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    width: 60%; 
+    background-color: #90a4ae; 
+    margin: 0 auto 0 auto;
+    transform: translateY(60px);
+}
+
+.footerDown .terms {
+    display: flex;
     font-size: 14px;
+    gap: 35%;
     text-align: center;
+    justify-content: center;
+    transform: translateY(100px);
+}
+
+.term:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
